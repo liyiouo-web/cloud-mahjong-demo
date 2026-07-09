@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 622" role="img" aria-label="六万">
+  <defs>
+    <linearGradient id="face" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffdf5"/>
+      <stop offset="1" stop-color="#eadfc9"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#4ab15d"/>
+      <stop offset="1" stop-color="#1d6c3b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#000" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect x="44" y="26" width="424" height="570" rx="58" fill="#102015" opacity=".35"/>
+  <path d="M73 91c0-34 27-61 61-61h244c34 0 61 27 61 61v62H73z" fill="url(#side)"/>
+  <rect x="73" y="62" width="366" height="512" rx="46" fill="url(#face)" filter="url(#shadow)"/>
+  <rect x="96" y="84" width="320" height="468" rx="34" fill="none" stroke="#ffffff" stroke-width="10" opacity=".72"/>
+  <text x="256" y="390" text-anchor="middle" font-size="255" font-family="'Segoe UI Symbol','Noto Sans Symbols 2','Apple Symbols',sans-serif" fill="#bc2f2f">🀌</text>
+  <text x="256" y="540" text-anchor="middle" font-size="44" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-weight="700" fill="#bc2f2f">六万</text>
+</svg>
